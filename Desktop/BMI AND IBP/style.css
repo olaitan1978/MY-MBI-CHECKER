@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2px;
+    border: black solid;
+    height: 350px;
+    width: 100%;
+    background-color: orange;
+}
+div{
+    font-weight: bolder;
+    margin: 12px;
+    font-size: larger;
+}
+input{
+    color: blue;
+    background-color: chartreuse;
+    height: 30px;
+    width: 30%;
+    border: darkblue solid 3px;
+    font-size: larger;
+}
+.hint{
+    background-color: yellow;
+    margin-top: 15px;
+}
+.hint:hover{
+    background-color: white;
+    margin-top: 15px;
+}
+#outy{
+    border: wheat solid 4px;
+}
+#bibi{
+    font-size: x-large;
+    color: blue;
+    height: 25%;
+    width: 25%;
+  float: right;
+    border: brown solid 12px;
+    border-radius: 12px;
+}
