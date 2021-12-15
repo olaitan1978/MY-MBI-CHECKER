@@ -6,7 +6,7 @@ function wink(){
     let height=parseFloat(document.getElementById("way2").value)
     let result=Math.floor(weight/(height*height))
     if(!name|| !weight || !height){
-        alert("non of the field must be left unfilled, thanks")
+        alert("you are not allowed to leave any of the field unfilled, thanks")
         return;
     }
     if(result<18){
@@ -22,3 +22,11 @@ function wink(){
 
 }
 button.addEventListener("click",wink)
+
+setInterval(lara,500)
+function lara(){
+    let array=['JUMIA CHRISTMAS SALE','Dec 6- 19','Grant deals, just in time for xmas']
+    let outi=document.getElementById("outo")
+    let randi=array[Math.floor(Math.random()*array.length)]
+    outi.innerHTML=randi
+}
