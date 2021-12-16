@@ -1,5 +1,6 @@
 *{
     background-color: mediumspringgreen;
+    align-items: center;
  
 }
 img{
@@ -17,14 +18,19 @@ input{
     border: white solid 9px;
     font-weight: bolder;
     margin: 0;
-    padding: 0;
+    padding: 0; 
     border-radius: 25px;
     font-size: large;
 }
 #solo:hover{
-    background-color: red;
+    background-color: palevioletred;
 }
 #sear{
     border-radius: 25px;
 
+}
+.ree{
+    margin-top: 20%;
+    color: red;
+    text-align: center;
 }
