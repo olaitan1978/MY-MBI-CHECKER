@@ -1,0 +1,30 @@
+*{
+    background-color: mediumspringgreen;
+ 
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+}
+input{
+    font-size: xx-large;
+    width: 80%;
+    background-color: white;
+}
+#solo{
+    border: white solid 9px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    border-radius: 25px;
+    font-size: large;
+}
+#solo:hover{
+    background-color: red;
+}
+#sear{
+    border-radius: 25px;
+
+}
