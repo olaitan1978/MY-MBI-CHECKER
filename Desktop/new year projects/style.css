@@ -1,0 +1,29 @@
+*{
+    background-color: yellow;
+   
+}
+#tabu{
+    margin: 12px;
+    border: 2px solid;
+    margin-top: 20px;
+}
+table th{
+    border: solid;
+    margin: 12px;
+}
+input{
+    border: solid;
+    
+}
+button{
+    font-size: x-large;
+    background-color: rgb(191, 211, 211);
+    color: tomato;
+}
+table td{
+    border: solid;
+}
+.fil{
+    text-align: center;
+    background-color: orange;
+}

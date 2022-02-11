@@ -1,0 +1,70 @@
+body{
+    background-image: url(shoe3.jpg);
+    background-size: cover;
+    text-align: center;
+}
+ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+
+}
+ul li ul{
+    float: left;
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    padding: 12px 10px;
+    width: 90px;
+    border-radius: 25px;
+ }
+ ul li:hover ul{
+    display: block;
+ }
+ul li ul li a{
+    text-decoration: none;
+    margin: 4px;
+    width: 90px;
+
+}
+ul li a{
+   text-decoration: none;
+   margin: 10px;
+   display: block;
+}
+
+#imo{
+    margin: 100px 200px 200px 200px;
+}   
+#imo:hover{
+    width: 1000px;
+    color: blue;
+    background-color: chartreuse;
+
+}   
+.joo{
+    margin: 100px 200px 200px 200px;
+}   
+.joo:hover{
+    width: 1000px;
+    color: blue;
+    background-color: chartreuse;
+
+}  
+#jop{
+
+    flex-direction: row;
+        
+
+} 
+.outi{
+    color: yellow;
+    background-color: purple;
+} 
+.out2{
+    height: 70PXpx;
+    width: 100%;
+    border-radius: 250px;
+    color: beige;
+   
+}
